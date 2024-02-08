@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Colin's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <h1 class="header-text">Colin's Portfolio</h1>
+    </header>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- navbar here-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <!--
+        <a class="navbar-brand" href="#">Colin's Portfolio</a>
+        -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <!-- 
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            </li>
+        -->
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- Information about me-->
+    <div class="title-container">
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <h1 class="title-head">Colin Campbell<br />Computer Science</h1>
+        </div>
+      </div>
+    </div>
+
+    <hr class="dashed" />
+
+    <div class="container2">
+      <div class="row">
+        <div class="col-sm-8 text-center">
+          <img
+            src="images/cyber.jpg"
+            alt="A picture of a Beautiful sunset"
+            style="width: 100%; height: auto"
+          />
+        </div>
+        <div class="col-sm-4">
+          <h3>
+            I am a computer science student at North Dakota State University,
+            pursuing a master's in computer science with a influence of
+            cybersecurity. After college I hope to pursue my career in
+            cybersecurity.
+          </h3>
+        </div>
+      </div>
+    </div>
+
+    <hr class="dashed" />
+    <!--My Schedule-->
+
+    <!-- Title for schedule-->
+    <div class="title-container">
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <h2 class="title-schedule">My Schedule</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="table-container">
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <table class="table table-bordered border-primary">
+            <thead>
+              <tr>
+                <th scope="col">Time</th>
+                <th scope="col">Monday</th>
+                <th scope="col">Tuesday</th>
+                <th scope="col">Wednesday</th>
+                <th scope="col">Thursday</th>
+                <th scope="col">Friday</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">8:00-10:00am</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <th scope="row">10:00-11:00am</th>
+                <td>CSCI366</td>
+                <td></td>
+                <td>CSCI366</td>
+                <td></td>
+                <td>CSCI366</td>
+              </tr>
+              <tr>
+                <th scope="row">11:00am-12:00pm</th>
+                <td>CSCI313</td>
+                <td>Work</td>
+                <td>CSCI313</td>
+                <td>Work</td>
+                <td>CSCI313</td>
+              </tr>
+              <tr>
+                <th scope="row">12:00-1:00pm</th>
+                <td></td>
+                <td>Work</td>
+                <td></td>
+                <td>Work</td>
+                <td></td>
+              </tr>
+              <tr>
+                <th scope="row">1:00-2:00pm</th>
+                <td>CSCI374</td>
+                <td>Work</td>
+                <td>CSCI374</td>
+                <td>Work</td>
+                <td>CSCI374</td>
+              </tr>
+              <tr>
+                <th scope="row">2:00-3:00pm</th>
+                <td>CSCI489</td>
+                <td>Work</td>
+                <td>CSCI489</td>
+                <td></td>
+                <td>CSCI489</td>
+              </tr>
+              <tr>
+                <th scope="row">3:00-4:00pm</th>
+                <td></td>
+                <td>Work</td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <th scope="row">4:00-5:00pm</th>
+                <td>CSCI604</td>
+                <td>Work</td>
+                <td>SCI604</td>
+                <td>Work</td>
+                <td>SCI604</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <hr class="dashed" />
+
+    <!--Favorites-->
+
+    <div class="title-container-favorites">
+      <div class="row">
+        <div class="col-sm-4 text-center">
+          <h1 class="title-favorite">Favorie Sites:</h1>
+        </div>
+        <div class="col-sm-4 text-center">
+          <h1 class="title-favorite">Favorite Movies:</h1>
+        </div>
+        <div class="col-sm-4 text-center">
+          <h1 class="title-favorite">List Of Hobbies:</h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="list-container">
+      <div class="row">
+        <div class="col-sm-4 text-center">
+          <div class="list-group">
+            <a
+              href="https://www.w3schools.com/"
+              class="list-group-item list-group-item-action"
+            >
+              w3schools
+            </a>
+            <a
+              href="https://www.walmart.com/"
+              class="list-group-item list-group-item-action"
+            >
+              Walmart.com
+            </a>
+            <a
+              href="https://www.amazon.com/"
+              class="list-group-item list-group-item-action"
+            >
+              Amazon.com
+            </a>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <ul class="unordered-list">
+            <li>Kong Fu Panda</li>
+            <li>Tenet</li>
+            <li>Strange Brew</li>
+          </ul>
+        </div>
+
+        <div class="col-sm-4">
+          <ul class="list-group list-group-numbered">
+            <li class="list-group-item">Competitive Programming</li>
+            <li class="list-group-item">Game Development</li>
+            <li class="list-group-item">Volleyball</li>
+            <li class="list-group-item">Snowboarding</li>
+            <li class="list-group-item">Rock Climbing</li>
+            <li class="list-group-item">Curling</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <hr class="dashed" />
+    <!--Hobbies and more-->
+
+    <div class="title-container-more">
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <h1 class="title-favorite">More About Me:</h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="hobbies-container">
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <h3 class="more-text">
+            Originally from Florida, I moved to North Dakota seeking a change of
+            scenery and to embrace the cold. Some hobbies I really enjoy here
+            are snowboarding and curling.
+          </h3>
+        </div>
+      </div>
+    </div>
+
+    <footer class="bg-body-tertiary">
+      <p class="footer-text">©Copyright 2023 by nobody. All rights reversed.</p>
+    </footer>
+  </body>
+</html>
