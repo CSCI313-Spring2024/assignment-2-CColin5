@@ -1,4 +1,5 @@
 header .header-text{
+    /* Changes the color to match the navbar color and sets the bottom margin to zero */
     --bs-bg-opacity: 1;
     background-color: rgba(var(--bs-tertiary-bg-rgb));
     margin-bottom: 0;
@@ -6,40 +7,42 @@ header .header-text{
 }
 
 .header-text {
+    /* addjust the padding*/
     padding-left: 2%;
 }
 
-.title-head {
-    margin-top: 0;
-    /* Removes space above the <h1> */
-    margin-bottom: 0;
-    /* Reduces space below the <h1>, adjust as needed */
-    /* Other styles */
-}
-
 .navbar {
+    /* resets the padding and margin to zero and gives the navbar some shading below it */
     margin: 0;
     padding: 0;
-    border-bottom-color:rgb(227, 227, 227);
+    border-bottom-color: rgb(227, 227, 227);
     border-bottom-style: solid;
 }
 
-
 .title-head {
-    font-size: 48px;
-        /* Adjust the size as needed */
-        /* Additional styling */
-        font-weight: bold;
-        /* Makes the font bolder */
-        color: #333;
-        /* Changes the text color */
-        text-shadow: 2px 2px 1px #003;
-            /* x-offset, y-offset, blur radius, color */
-        margin:5%;
+    /* Makes sure there is no margin above and below the .title-head*/
+    margin-top: 0;
+    margin-bottom: 0;
+    
 }
 
 
-.container2 {
+.title-head {
+    /* Changes the size, color, boldness, and adds shadow to the .title-head*/
+    font-size: 48px;
+        
+    font-weight: bold;
+        
+    color: #333;
+        
+    text-shadow: 2px 2px 1px #003;
+    /* addjust the margin*/
+    margin:5%;
+}
+
+
+.container-information {
+    /* addjust the margin of the information about me*/
     margin: 5%;
 }
 
@@ -51,47 +54,56 @@ hr.dashed {
     border-top: 3px dashed #bbb;
 }
 
+ /* addjust the padding for the schedule title*/
 .title-schedule{
     padding-top: 3%;
 }
 
+
 .table-container {
+    /* gives the width of the table at 100%*/
     max-width: 100%;
-        /* Adjust this as needed */
-        padding: 5%;
+    /* Adjust the padding of the table */
+    padding: 5%;
 }
 
+/* This is for adjusting the padding of all the favorites and lists containers */
 .list-container {
     
         padding: 5%;
         padding-top: 2%;
 }
 
+/* adjusts the padding*/
 .title-container-favorites{
     padding: 5%;
 }
 
 
-
 .unordered-list{
+    /* gives some margin to the unordered list */
     margin-left: 10%;
 }
 
+/* gives some padding to the title of "More information about me:" */
 .title-container-more{
     padding: 5%;
 }
 
+/* adjusts the text's padding in the more information part */
 .more-text{
     padding-left: 5%;
     padding-right: 5%;
     padding-bottom: 10%;
 }
 
+/* padding for footer */
 footer{
     padding: 5%
     
 }
 
+/* Text is centered on footer */
 .footer-text{
     text-align: center;
 }
